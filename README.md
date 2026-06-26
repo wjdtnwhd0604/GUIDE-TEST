@@ -1,3 +1,4 @@
+[Uploading 중도입국청소년_입학서류_가이드 (4).html…]()
 <!DOCTYPE html>
 <html lang="ko">
 <head>
@@ -187,15 +188,15 @@
 
   <nav class="toc">
     <div class="toc-title">목차</div>
-    <a href="#gate0" class="gatelink"><span class="dot">0</span>학력인정학교 확인</a>
     <a href="#doc1"><span class="dot">1</span>입학원서</a>
     <a href="#doc2"><span class="dot">2</span>출입국·거주사실</a>
-    <a href="#doc3"><span class="dot">3</span>전학년 성적증명</a>
-    <a href="#doc4"><span class="dot">4</span>재학·졸업증명</a>
-    <a href="#doc5"><span class="dot">5</span>국내 생활기록부</a>
-    <a href="#doc6"><span class="dot">6</span>예방접종증명</a>
-    <a href="#doc7"><span class="dot">7</span>교육청 추가서류</a>
-    <a href="#doc8"><span class="dot">8</span>가족관계 확인</a>
+    <a href="#doc3" class="gatelink"><span class="dot">3</span>학력인정학교 확인</a>
+    <a href="#doc4"><span class="dot">4</span>전학년 성적증명</a>
+    <a href="#doc5"><span class="dot">5</span>재학·졸업증명</a>
+    <a href="#doc6"><span class="dot">6</span>국내 생활기록부</a>
+    <a href="#doc7"><span class="dot">7</span>예방접종증명</a>
+    <a href="#doc8"><span class="dot">8</span>교육청 추가서류</a>
+    <a href="#doc9"><span class="dot">9</span>가족관계 확인</a>
   </nav>
 
   <div class="main">
@@ -205,39 +206,6 @@
       <h1>중도입국청소년 입학서류 안내 가이드</h1>
       <p>학부모가 "이 서류 어떻게 준비해야 하나요?"라고 물을 때, 필수서류와 대체서류·발급처를 빠짐없이 짚어줄 수 있도록 만든 상담용 참조 자료입니다.</p>
       <div class="hero-tip">💡 서류 옆 <b>예 / 아니오</b> 버튼을 눌러보세요 — "아니오"를 누르면 대체서류와 발급처가 바로 펼쳐집니다.</div>
-    </div>
-
-    <!-- GATE 0 -->
-    <div class="card gate" id="gate0">
-      <div class="card-head">
-        <div class="titlewrap"><div class="num-badge gate">0</div><h2>먼저 확인 — 학력인정학교 목록</h2></div>
-        <span class="stamp gate">③④에만 영향</span>
-      </div>
-      <div class="purpose"><b>왜 먼저 보나요?</b> 학생이 다닌 외국 학교가 교육부 「귀국학생 등의 학적서류 처리절차 간소화 대상 학교 목록」에 있으면,
-      성적증명서·재학(졸업)증명서를 <u>아포스티유·영사확인 없이</u> 학교장 직인 원본만으로 인정합니다. 목록에 없으면 ③④ 서류 안내 시
-      아포스티유·영사확인 절차가 추가로 필요해요.</div>
-
-      <div class="linkcard">
-        📂 <b>학력인정학교목록_아시아오세아니아.xlsx</b> — 이 가이드와 같은 폴더에 함께 내려받아두시고, 학교명을 <b>Ctrl+F</b>로 검색하세요.
-        <a href="./학력인정학교목록_아시아오세아니아.xlsx" target="_blank">엑셀 파일 열기</a>
-        <div class="note" style="margin-top:6px;">국가/지역별 시트로 나뉘어 있어요(대만·말레이시아·베트남·일본 각 현·중국 각 성 등). 자료는 교육부가 주기적으로 갱신하므로,
-        최신본을 받아 이 파일을 교체해두시면 됩니다.</div>
-      </div>
-
-      <div class="qbox">
-        <div class="qtext">Q. 학생의 출신 학교가 목록에 있나요?</div>
-        <div class="toggle-row" data-group="g0">
-          <button class="tbtn" onclick="pick(this,'g0','yes')">예 (목록에 있음)</button>
-          <button class="tbtn" onclick="pick(this,'g0','no')">아니오 / 모르겠음</button>
-        </div>
-        <div class="ans ans-ok" data-show="g0-yes">
-          ✅ <b class="lead">아포스티유·영사확인 면제</b> — ③④ 서류는 출신 학교장 직인이 찍힌 원본(또는 사본)만 받아오면 됩니다. 추가 공증을 요구하지 않아도 됩니다.
-        </div>
-        <div class="ans ans-warn" data-show="g0-no">
-          ⚠️ <b class="lead">아포스티유 또는 영사확인 필요</b> — ③④ 서류를 받을 때, 출신 국가가 아포스티유 협약국이면 '아포스티유 확인'을,
-          협약국이 아니면 현지 한국 대사관·영사관의 '영사확인'을 받아오도록 안내하세요. 시간이 걸리면 ③④의 대체서류로 먼저 입교를 진행할 수 있습니다.
-        </div>
-      </div>
     </div>
 
     <!-- DOC 1 -->
@@ -275,6 +243,7 @@
             <li><span class="pill">1순위</span><div>임대차계약서(전·월세 계약서) — <b>발급처:</b> 이미 보유 중인 계약서, 또는 공인중개사 통해 사본 발급</div></li>
             <li><span class="pill">2순위</span><div>거주사실 인우보증서 — <b>발급처:</b> 정해진 양식 없이 직접 작성, 이웃·통/이장·관리사무소 등 거주사실을 아는 사람의 보증 서명을 받아 작성</div></li>
           </ul>
+          <div class="note">📌 위 두 가지는 예시일 뿐, 그 외에도 거주사실을 확인할 수 있는 서류라면 모두 인정됩니다.</div>
           <div class="samplebox">
             <div class="sample-label">서식 예시</div>
             <div class="sample-grid">
@@ -294,22 +263,56 @@
       </div>
     </div>
 
-    <!-- DOC 3 -->
-    <div class="card" id="doc3">
+    <!-- GATE 0 -->
+    <div class="card gate" id="doc3">
       <div class="card-head">
-        <div class="titlewrap"><div class="num-badge">3</div><h2>전학년 성적증명서</h2></div>
+        <div class="titlewrap"><div class="num-badge gate">3</div><h2>먼저 확인 — 학력인정학교 목록</h2></div>
+        <span class="stamp gate">④⑤에만 영향</span>
+      </div>
+      <div class="purpose"><b>왜 먼저 보나요?</b> 학생이 다닌 외국 학교가 교육부 「귀국학생 등의 학적서류 처리절차 간소화 대상 학교 목록」에 있으면,
+      성적증명서·재학(졸업)증명서를 <u>아포스티유·영사확인 없이</u> 학교장 직인 원본만으로 인정합니다. 목록에 없으면 ④⑤ 서류 안내 시
+      아포스티유·영사확인 절차가 추가로 필요해요.</div>
+
+      <div class="linkcard">
+        📂 <b>학력인정학교목록(아시아·오세아니아)</b> — 교육부 「귀국학생 등의 학적서류 처리절차 간소화 대상 학교 목록」 게시물에서 최신 엑셀 파일을 내려받아 학교명을 <b>Ctrl+F</b>로 검색하세요.
+        <a href="https://www.moe.go.kr/boardCnts/viewRenew.do?boardID=316&boardSeq=106476&lev=0&searchType=null&statusYN=W&page=1&s=moe&m=030214&opType=N" target="_blank">교육부 게시물 바로가기</a>
+        <div class="note" style="margin-top:6px;">국가/지역별 시트로 나뉘어 있어요(대만·말레이시아·베트남·일본 각 현·중국 각 성 등). 자료는 교육부가 주기적으로 갱신하므로,
+        상담 시마다 위 링크에서 최신본을 확인하시면 됩니다.</div>
+      </div>
+
+      <div class="qbox">
+        <div class="qtext">Q. 학생의 출신 학교가 목록에 있나요?</div>
+        <div class="toggle-row" data-group="g0">
+          <button class="tbtn" onclick="pick(this,'g0','yes')">예 (목록에 있음)</button>
+          <button class="tbtn" onclick="pick(this,'g0','no')">아니오 / 모르겠음</button>
+        </div>
+        <div class="ans ans-ok" data-show="g0-yes">
+          ✅ <b class="lead">아포스티유·영사확인 면제</b> — ④⑤ 서류는 출신 학교장 직인이 찍힌 원본(또는 사본)만 받아오면 됩니다. 추가 공증을 요구하지 않아도 됩니다.
+        </div>
+        <div class="ans ans-warn" data-show="g0-no">
+          ⚠️ <b class="lead">아포스티유 또는 영사확인 필요</b> — ④⑤ 서류를 받을 때, 출신 국가가 아포스티유 협약국이면 '아포스티유 확인'을,
+          협약국이 아니면 현지 한국 대사관·영사관의 '영사확인'을 받아오도록 안내하세요. 시간이 걸리면 ④⑤의 대체서류로 먼저 입교를 진행할 수 있습니다.
+        </div>
+      </div>
+    </div>
+
+
+    <!-- DOC 3 -->
+    <div class="card" id="doc4">
+      <div class="card-head">
+        <div class="titlewrap"><div class="num-badge">4</div><h2>전학년 성적증명서</h2></div>
         <span class="stamp req">필수</span>
       </div>
       <div class="purpose"><b>왜 필요한가요?</b> 학생의 직전 학력 수준을 파악해 배정 학년·학습 지원을 결정하기 위함입니다.</div>
 
       <div class="qbox">
-        <div class="qtext">Q. 출신학교 성적표를 받아올 수 있나요?<small>Gate 0 결과에 따라 아포스티유·영사확인 필요 여부가 달라요</small></div>
+        <div class="qtext">Q. 출신학교 성적표를 받아올 수 있나요?<small>3번 결과에 따라 아포스티유·영사확인 필요 여부가 달라요</small></div>
         <div class="toggle-row" data-group="g3">
           <button class="tbtn" onclick="pick(this,'g3','yes')">예 (받아올 수 있음)</button>
           <button class="tbtn" onclick="pick(this,'g3','no')">아니오 (어려움)</button>
         </div>
         <div class="ans ans-ok" data-show="g3-yes">
-          ✅ 출신학교에서 성적표(베트남 기준 'BẢNG ĐIỂM')를 발급받아 오면 됩니다. Gate 0에서 '아니오'였다면 아포스티유·영사확인까지 받아야 원본으로 인정됩니다.
+          ✅ 출신학교에서 성적표(베트남 기준 'BẢNG ĐIỂM')를 발급받아 오면 됩니다. 3번에서 '아니오'였다면 아포스티유·영사확인까지 받아야 원본으로 인정됩니다.
         </div>
         <div class="ans ans-alt" data-show="g3-no">
           🔁 <b class="lead">대체서류로 우선 입교 후 보완할 수 있습니다.</b>
@@ -329,9 +332,9 @@
     </div>
 
     <!-- DOC 4 -->
-    <div class="card" id="doc4">
+    <div class="card" id="doc5">
       <div class="card-head">
-        <div class="titlewrap"><div class="num-badge">4</div><h2>재학증명서 또는 졸업증명서</h2></div>
+        <div class="titlewrap"><div class="num-badge">5</div><h2>재학증명서 또는 졸업증명서</h2></div>
         <span class="stamp req">필수</span>
       </div>
       <div class="purpose"><b>왜 필요한가요?</b> 재학증명서 자체가 꼭 필요한 게 아니라, 학생이 실제 그 학교에 다녔다는 사실을 확인하는 게 목적입니다.</div>
@@ -344,7 +347,7 @@
         </div>
         <div class="ans ans-ok" data-show="g4-yes">
           ✅ 출신학교에서 재학증명서(GIẤY XÁC NHẬN HỌC SINH) 또는 졸업증명서(GIẤY CHỨNG NHẬN TỐT NGHIỆP)를 발급받아 오면 됩니다.
-          Gate 0이 '아니오'였다면 아포스티유·영사확인까지 받아야 원본으로 인정됩니다.
+          3번이 '아니오'였다면 아포스티유·영사확인까지 받아야 원본으로 인정됩니다.
         </div>
         <div class="ans ans-alt" data-show="g4-no">
           🔁 <b class="lead">아래 대체 가능 자료 중 하나로도 재학·졸업 사실이 확인되면 입교가 가능합니다.</b>
@@ -367,9 +370,9 @@
     </div>
 
     <!-- DOC 5 -->
-    <div class="card" id="doc5">
+    <div class="card" id="doc6">
       <div class="card-head">
-        <div class="titlewrap"><div class="num-badge">5</div><h2>국내 이전 학교 학교생활기록부</h2></div>
+        <div class="titlewrap"><div class="num-badge">6</div><h2>국내 이전 학교 학교생활기록부</h2></div>
         <span class="stamp cond">해당자만</span>
       </div>
       <div class="purpose"><b>왜 필요한가요?</b> 해외가 아니라 국내 다른 학교에서 옮겨온 경우, 이전 학교의 기록을 이어받기 위함입니다.</div>
@@ -378,9 +381,9 @@
     </div>
 
     <!-- DOC 6 -->
-    <div class="card" id="doc6">
+    <div class="card" id="doc7">
       <div class="card-head">
-        <div class="titlewrap"><div class="num-badge">6</div><h2>예방접종증명서</h2></div>
+        <div class="titlewrap"><div class="num-badge">7</div><h2>예방접종증명서</h2></div>
         <span class="stamp req">필수</span>
       </div>
       <div class="purpose"><b>왜 필요한가요?</b> 「감염병의 예방 및 관리에 관한 법률」 제27조에 따라 집단생활 중 감염병 확산을 막기 위함입니다.</div>
@@ -407,9 +410,9 @@
     </div>
 
     <!-- DOC 7 -->
-    <div class="card" id="doc7">
+    <div class="card" id="doc8">
       <div class="card-head">
-        <div class="titlewrap"><div class="num-badge">7</div><h2>시도교육청 추가 지정 서류</h2></div>
+        <div class="titlewrap"><div class="num-badge">8</div><h2>시도교육청 추가 지정 서류</h2></div>
         <span class="stamp cond">지역별 상이</span>
       </div>
       <div class="purpose"><b>왜 필요한가요?</b> 시도교육청별로 추가 요구 서류가 있을 수 있어, 관할 교육청 지침을 별도 확인해야 합니다.</div>
@@ -417,9 +420,9 @@
     </div>
 
     <!-- DOC 8 -->
-    <div class="card" id="doc8">
+    <div class="card" id="doc9">
       <div class="card-head">
-        <div class="titlewrap"><div class="num-badge">8</div><h2>가족관계·거주지 확인 기타 자료</h2></div>
+        <div class="titlewrap"><div class="num-badge">9</div><h2>가족관계·거주지 확인 기타 자료</h2></div>
         <span class="stamp cond">해당자만</span>
       </div>
       <div class="purpose"><b>왜 필요한가요?</b> 보호자-학생 관계나 거주지(학군) 확인이 추가로 필요한 경우입니다.</div>
@@ -432,7 +435,7 @@
 
     <div class="footer-strip">
       💡 <b>상담 사용법</b> — 학부모가 "이 서류 없어요/못 구해요"라고 하면, 해당 번호의 "아니오" 버튼을 눌러 대체서류와 발급처를 그 자리에서 바로 안내하세요.
-      Gate 0(학력인정학교 목록)은 ③④ 서류를 안내하기 전 딱 한 번만 확인하면 됩니다.
+      3번(학력인정학교 목록)은 ④⑤ 서류를 안내하기 전 딱 한 번만 확인하면 됩니다.
     </div>
 
   </div>
